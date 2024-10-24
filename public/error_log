@@ -1,0 +1,18 @@
+[26-Apr-2024 10:15:04 UTC] PHP Warning:  require(/home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php): Failed to open stream: No such file or directory in /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap.php on line 15
+[26-Apr-2024 10:15:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap.php:15
+Stack trace:
+#0 /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/composer/autoload_real.php(41): require()
+#1 /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/composer/autoload_real.php(45): {closure}('e69f7f6ee287b96...', '/home2/gofactz/...')
+#2 /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/autoload.php(25): ComposerAutoloaderInit3d062f814e3d0211149bc6e8d019895a::getLoader()
+#3 /home2/gofactz/fornow.gofactz.com/cpclpactapi/public/index.php(34): require('/home2/gofactz/...')
+#4 {main}
+  thrown in /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap.php on line 15
+[26-Apr-2024 10:15:04 UTC] PHP Warning:  require(/home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php): Failed to open stream: No such file or directory in /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap.php on line 15
+[26-Apr-2024 10:15:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap.php:15
+Stack trace:
+#0 /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/composer/autoload_real.php(41): require()
+#1 /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/composer/autoload_real.php(45): {closure}('e69f7f6ee287b96...', '/home2/gofactz/...')
+#2 /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/autoload.php(25): ComposerAutoloaderInit3d062f814e3d0211149bc6e8d019895a::getLoader()
+#3 /home2/gofactz/fornow.gofactz.com/cpclpactapi/public/index.php(34): require('/home2/gofactz/...')
+#4 {main}
+  thrown in /home2/gofactz/fornow.gofactz.com/cpclpactapi/vendor/symfony/polyfill-intl-normalizer/bootstrap.php on line 15
